@@ -77,7 +77,7 @@
 
 @for($g = 1; $g<=5; $g++)
 
-{{--if the value is 3 break--}}
+{{--if the value is 3 br--}}
     @if($g==3)
        @break
     @endif

@@ -47,7 +47,17 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/abcd/{name?}', function ($name=null) {
- $abc="siddhi";
- return view('home',compact('name','abc'));
- });
+// Route::get('/abcd/{name?}', function ($name=null) {
+//  $abc="siddhi";
+//  return view('home',compact('name','abc'));
+//  });
+
+
+Route::get('/',function(){
+    return view('home2');
+});
+
+
+Route::get('/about',function(){
+    return view('about');
+});
